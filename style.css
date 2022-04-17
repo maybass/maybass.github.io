@@ -15,20 +15,27 @@ html {
 }
 
 
+ul {
+padding: 0px;
+}
+
 ul li {
 	float: left;
 	width: 25%;
 	border: 2px solid black;
+	list-style: none;
+	font-size: 2.2rem;
+	
 	
 }
 
-h3 {
+h1 {
 clear: both;
 }
 
 
 p {
-  font-size: 3rem;
+  font-size: 2.2rem;
 
 }
 
