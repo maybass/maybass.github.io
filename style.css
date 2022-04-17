@@ -15,9 +15,20 @@ html {
 }
 
 
+ul li {
+	float: left;
+	width: 25%;
+	border: 2px solid black;
+	
+}
+
+h3 {
+clear: both;
+}
+
 
 p {
-  font-size: 2.2rem;
+  font-size: 3rem;
 
 }
 
