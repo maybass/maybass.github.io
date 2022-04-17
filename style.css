@@ -5,6 +5,7 @@
 html, body {
   margin: 0;
   padding: 0;
+
   background-color: pink;
 }
 
@@ -41,13 +42,16 @@ p {
 .portfolio {
 	display: flex;
 	justify-content: space-between;
+	
+	
+	
 
 }
 
 
 .box {
-	width: 25%;
-	height: 25%;
+	width: 100vw;
+    height: 20vh;
 	
 	background-color: red;
 }
