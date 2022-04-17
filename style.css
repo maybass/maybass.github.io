@@ -52,10 +52,14 @@ p {
 	background-color: red;
 }
 
-.experiencia-laboral {
-	width: 50%;
+.expertise {
 	display: flex;
 	justify-content: space-between;
+}
+
+.experiencia-laboral {
+	width: 50%;
+	
 }
 
 @media screen and (min-width: 780px) and (max-width: 1024px) { /*y landscape???*/
