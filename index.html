@@ -11,64 +11,72 @@
       <ul>
 	      <li><a href="#inicio">Inicio</a></li>
 	      <li><a href="#sobremi">Sobre mi</a></li>
-	      <li><a href="#portfolio">Portfolio</a></li>
+	      <li><a href="#portafolio">Portfolio</a></li>
 	      <li><a href="#contacto">Contacto</a></li>
       </ul>
     </header>
     <h1 id="inicio">Mi nombre</h1>
-    <h3 id="sobremi">Sobre mi</h3>
+    <h2 id="sobremi">Sobre mi</h2>
 	   <div class="expertise">
     <div class="experiencia-laboral">
-	    <h3>Experiencia Laboral</h3>
-	    <p>es la ciudad más poblada  y una de las más pobladas del mundo.6​Desde finales del siglo XIX 
+	    <h2>Experiencia Laboral</h2>
+	    <p>Es la ciudad más poblada  y una de las más pobladas del mundo. Desde finales del siglo XIX 
 		es uno de los centros.</p>
-	    <button type="button">Ver mas</button>
+	    <button type="button" class="ver-mas">Ver mas</button>
     </div>
 	 
     <div class="experiencia-laboral"> 
-	      <h3>Educacion</h3>
-	      <p>es la ciudad más poblada  y una de las más pobladas del mundo.6​Desde finales del siglo XIX 
+	      <h2>Educacion</h2>
+	      <p>Es la ciudad más poblada  y una de las más pobladas del mundo. ​Desde finales del siglo XIX 
 		es uno de los centros.</p>
-	      <button type="button">Ver mas</button>
+	      <button type="button" class="ver-mas">Ver mas</button>
     </div>
 	  </div>
-    <h3 id="portfolio"> Portfolio </h3>
-    <div class="portfolio">
-      			<div class="box">1</div>
-			<div class="box">2</div>
-			<div class="box">3</div>
-			<div class="box">4</div>
+    <h2> Portfolio </h2>
+    <div class="portfolio" id="portafolio">
+      		<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
+			<div class="box"></div>
     </div>
     <div class="portfolio-content">
       <div class="contenido">
-		  <h3>Trabajo #1</h3>
+		  <h2>Trabajo #1</h2>
 			<p>es la ciudad más poblada y una de las más pobladas del mundo. Desde finales del siglo XIX 
 			 es uno de los centros.</p>
       </div>
 			<div class="contenido">
-			<h3>Trabajo #1</h3>
+			<h2>Trabajo #2</h2>
 			<p>es la ciudad más poblada y una de las más pobladas del mundo.6​Desde finales del siglo XIX 
 			es uno de los centros.</p>
       </div>
 			<div class="contenido">
-			<h3>Trabajo #1</h3>
+			<h2>Trabajo #3</h2>
 			<p>es la ciudad más poblada  y una de las más pobladas del mundo.6​Desde finales del siglo XIX 
         es uno de los centros.</p>
       </div>
 			<div class="contenido">
-			<h3>Trabajo #1</h3>
+			<h2>Trabajo #4</h2>
 			<p>es la ciudad más poblada  y una de las más pobladas del mundo.6​Desde finales del siglo XIX 
         es uno de los centros.</p>
       </div>
     </div>
-	  <div id="contacto">
+	  
+		<h2>Contacto</h2>
+		<div id="contacto">
 		  <form action="https://formspree.io/f/xnqwzdyv" method="POST">
-			  <label for="username">Username:</label>
-			  <input type="text" name="username" id="username" placeholder="write your username here" required>
-			  <label for="password">Password:</label>
-			  <input type="password" name="password" id="password" required>
-			<input type="submit">
-			<input type="reset">
+		  <div class= "userName">
+			  <label for="username" >Username:</label>
+			  <input type="text" name="username" id="username" placeholder="write your username here" class="form"required>
+			  </div>
+			  <div class="userName">
+			  <label for="password" >Password:</label>
+			  <input type="password" name="password" id="password" class="form" required>
+			  </div>
+			  <div class="botonera">
+			<input type="submit" class="boton1">
+			<input type="reset" class="boton2">
+			</div>
 		  </form>
 	  </div>
   </body>
