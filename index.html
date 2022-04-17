@@ -9,14 +9,14 @@
   <body>
     <header>
       <ul>
-        <li>Inicio</li>
-        <li>Sobre mi</li>
-        <li>Portfolio</li>
-        <li>Contacto</li>
+	      <li><a href="#inicio">Inicio</a></li>
+	      <li><a href="#sobremi">Sobre mi</a></li>
+	      <li><a href="#portfolio">Portfolio</a></li>
+	      <li><a href="#contacto">Contacto</a></li>
       </ul>
     </header>
-    <h1>Mi nombre</h1>
-    <h3>Sobre mi</h3>
+    <h1 id="inicio">Mi nombre</h1>
+    <h3 id="sobremi">Sobre mi</h3>
     <div class="experiencia-laboral">
       <h3>Experiencia Laboral</h3>
       <p>es la ciudad más poblada  y una de las más pobladas del mundo.6​Desde finales del siglo XIX 
@@ -29,7 +29,7 @@
         es uno de los centros.</p>
       <button type="button">Ver mas</button>
     </div>
-    <h3> Portfolio </h3>
+    <h3 id="portfolio"> Portfolio </h3>
     <div class="portfolio">
       <div class="box"></div>
 			<div class="box"></div>
@@ -58,5 +58,15 @@
         es uno de los centros.</p>
       </div>
     </div>
+	  <div id="contacto">
+		  <form action="https://formspree.io/f/xnqwzdyv" method="POST">
+			  <label for="username>Username:</label>
+			  <input type="text" name="username" id="username" placeholder="write your username here" required>
+			  <label for="password">Password:</label>
+			  <input type="password" name="password" id="password" required>
+			<input type="submit">
+			<input type="reset">
+		  </form>
+	  </div>
   </body>
 </html>
