@@ -46,9 +46,9 @@ p {
 
 
 .box {
-	width: 100px;
-	height: 100px;
-	margin: 20px auto;
+	width: 25%;
+	height: 25%;
+	
 	background-color: red;
 }
 
@@ -60,6 +60,16 @@ p {
 .experiencia-laboral {
 	width: 50%;
 	
+}
+
+
+.portfolio-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenido {
+	width: 25%;
 }
 
 @media screen and (min-width: 780px) and (max-width: 1024px) { /*y landscape???*/
