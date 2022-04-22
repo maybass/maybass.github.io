@@ -117,7 +117,7 @@ p {
 	body{background-color: orange;}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 859px) {
 	body{background-color: black;}
 }
 
