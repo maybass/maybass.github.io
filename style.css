@@ -113,8 +113,9 @@ p {
 
 
 /*medida tablet bootstrap*/
-@media only screen and (min-width: 576px) and (max-width: 767px){
+@media only screen and (min-width: 576px) {
 	body{background-color: orange;}
 }
+
 
 /*en el resto mas grande aplicara fondo rosa*/
