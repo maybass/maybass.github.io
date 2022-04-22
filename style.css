@@ -106,7 +106,7 @@ p {
 }
 
 /*medida celular bootstrap*/
-@media only screen and (max-width: 575px){
+@media only screen and (min-width: 320px){
 	body{background-color: green;}
 
 }
@@ -117,5 +117,8 @@ p {
 	body{background-color: orange;}
 }
 
+@media only screen and (min-width: 768px) {
+	body{background-color: black;}
+}
 
 /*en el resto mas grande aplicara fondo rosa*/
