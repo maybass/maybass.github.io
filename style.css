@@ -5,8 +5,8 @@
 html, body {
   margin: 0;
   padding: 0;
-
-  background-color: pink;
+ background-color: pink;
+ 
 }
 
 
@@ -105,24 +105,16 @@ p {
 	padding: 20px;
 }
 
+/*medida celular bootstrap*/
+@media only screen and (max-width: 575px){
+	body{background-color: green;}
 
-@media screen and (min-width: 320px) {
-
-	body {background: green;}
-
-	
-}
-
-@media screen and (min-width: 480px) and (max-width: 780px) {
-	body {background: orange;}
-	
-	
 }
 
 
-
-@media screen and (min-width: 780px) and (max-width: 1024px) {
-	
-		body {background: red;}
+/*medida tablet bootstrap*/
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	body{background-color: pink;}
 }
 
+/*en el resto mas grande aplicara fondo rosa*/
