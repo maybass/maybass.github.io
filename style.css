@@ -119,6 +119,20 @@ p {
 		
 }
 
+
+@media screen and (min-width: 400px) {
+
+.portfolio-content {
+		display: grid;
+	}
+	
+	.contenido {
+		grid-template: 1fr/ 1fr;
+	}
+		
+		
+}
+
 @media screen and (min-width: 780px) and (max-width: 1024px) { /*y landscape???*/
 	
 }
