@@ -106,31 +106,10 @@ p {
 }
 
 
-@media screen and (min-width: 300px) {
-
-.portfolio-content {
-		display: grid;
-	}
-	
-	.contenido {
-		grid-template: 1fr/ 1fr;
-	}
-		
-		
-}
-
-
-
 @media screen and (min-width: 320px) {
 
 	body {background: green;}
-	.portfolio-content {
-		display: grid;
-	}
-	
-	.contenido {
-		grid-template: 1fr/ 1fr;
-	}
+
 	
 }
 
